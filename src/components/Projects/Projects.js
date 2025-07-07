@@ -1,10 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import passGen from "../../Assets/Projects/codeEditor.png";
-import TipJar from "../../Assets/Projects/chatify.png";
-import Lottery from "../../Assets/Projects/blog.png";
-import ThemeToggler from "../../Assets/Projects/blog.png";
+import pro from "../../Assets/Projects/p.png";
 
 function Projects() {
   return (
@@ -21,7 +18,7 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TipJar}
+              imgPath={pro}
               isBlog={false}
               title="TipJar3.0"
               description="TipJar3.0 is a decentralized tipping platform where users can send Sepolia ETH directly on-chain. Built with Solidity, Hardhat, Ether.js, and React, the DApp ensures secure and transparent Ethereum transactions. The smart contract is deployed on Sepolia and the frontend is hosted live on Netlify."
@@ -32,7 +29,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ThemeToggler}
+              imgPath={pro}
               isBlog={false}
               title="Theme Toggler"
               description="A fast and responsive light/dark theme toggler built with Vite and React. Uses Context API for global state management and Tailwind CSS for styling. Demonstrates modern UI patterns with a smooth user experience and instant theme switching."
@@ -43,7 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Lottery}
+              imgPath={pro}
               isBlog={false}
               title="Lottery Smart Contract"
               description="A decentralized lottery system built using Solidity and deployed on the Ethereum blockchain. Participants can enter the lottery by sending ETH, and a random winner is selected using Chainlink VRF. Ensures fairness, transparency, and secure smart contract interactions."
@@ -53,7 +50,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={passGen}
+              imgPath={pro}
               isBlog={false}
               title="Password Generator"
               description="A simple yet powerful password generator built with React.js. Users can generate secure and customizable passwords by selecting length, character types (uppercase, lowercase, numbers, symbols), and easily copy them to the clipboard. Lightweight and fast with a clean UI."
