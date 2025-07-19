@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import pro from "../../Assets/Projects/p.png";
+import pro from "../../Assets/Projects/pro.png";
 
 function Projects() {
   return (
