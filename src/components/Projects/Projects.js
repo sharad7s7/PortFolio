@@ -15,6 +15,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro}
+              isBlog={false}
+              title="California House Price Predictor"
+              description="Trained a machine learning model on California housing dataset to predict home prices.Utilized data preprocessing techniques to handle missing values and implemented cross-validation. Additionally, employed one-hot encoding and other techniques to transform categorical variables effectively."
+              ghLink="https://github.com/sharad7s7/California-HousePrice-Prediction"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro}
+              isBlog={false}
+              title="Interview Pal"
+              description="Developed an interview preparation platform leveraging Gemini AI to assist users in practicing interviews and enhancing their skills. The platform offers personalized mock interviews, real-time feedback on responses, and skill development modules. Integrated Gemini AI for generating role-specific questions and analyzing user performance, while incorporating learning paths to target skill gaps."
+              ghLink="https://github.com/sharad7s7/Interview-Pal"
+              demoLink="https://interview-pal.vercel.app/"
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
