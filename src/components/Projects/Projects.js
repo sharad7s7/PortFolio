@@ -21,8 +21,9 @@ function Projects() {
               imgPath={pro}
               isBlog={false}
               title="California House Price Predictor"
-              description="Trained a machine learning model on California housing dataset to predict home prices.Utilized data preprocessing techniques to handle missing values and implemented cross-validation. Additionally, employed one-hot encoding and other techniques to transform categorical variables effectively."
+              description="Predicts California home prices using a machine learning model. Users can input property features through an interactive Streamlit (2,000 rows for performance, while the full dataset contains 16,000 rows) interface to get real-time price predictions, along with visual insights such as maps, feature importance, and price distributions. Performed data preprocessing, handled missing values, applied one-hot encoding, and used cross-validation."
               ghLink="https://github.com/sharad7s7/California-HousePrice-Prediction"
+              demoLink="https://sharad7s7-california-houseprice-prediction-app-cervml.streamlit.app/"
             />
           </Col>
 
@@ -36,7 +37,17 @@ function Projects() {
               demoLink="https://interview-pal.vercel.app/"
             />
           </Col>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro}
+              isBlog={false}
+              title="Reel Bite"
+              description="A full-stack food reels platform where users can browse and watch food reels. Built with a complete backend using Node.js and Express, featuring secure user authentication with JWT and API-driven content delivery."
+              ghLink="https://github.com/sharad7s7/Reel-Bite"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro}
@@ -45,17 +56,6 @@ function Projects() {
               description="TipJar3.0 is a decentralized tipping platform where users can send Sepolia ETH directly on-chain. Built with Solidity, Hardhat, Ether.js, and React, the DApp ensures secure and transparent Ethereum transactions. The smart contract is deployed on Sepolia and the frontend is hosted live on Netlify."
               ghLink="https://github.com/sharad7s7/TipJar.git"
               demoLink="https://tip3-3jar.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pro}
-              isBlog={false}
-              title="Theme Toggler"
-              description="A fast and responsive light/dark theme toggler built with Vite and React. Uses Context API for global state management and Tailwind CSS for styling. Demonstrates modern UI patterns with a smooth user experience and instant theme switching."
-              ghLink="https://github.com/sharad7s7/themeToggler-contextAPI"
-              demoLink="https://theme-toggler-context-api-psi.vercel.app/"
             />
           </Col>
 
@@ -77,6 +77,17 @@ function Projects() {
               description="A simple yet powerful password generator built with React.js. Users can generate secure and customizable passwords by selecting length, character types (uppercase, lowercase, numbers, symbols), and easily copy them to the clipboard. Lightweight and fast with a clean UI."
               ghLink="https://github.com/sharad7s7/pass-gen.git"
               demoLink="https://pass-gen-blush.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro}
+              isBlog={false}
+              title="Theme Toggler"
+              description="A fast and responsive light/dark theme toggler built with Vite and React. Uses Context API for global state management and Tailwind CSS for styling. Demonstrates modern UI patterns with a smooth user experience and instant theme switching."
+              ghLink="https://github.com/sharad7s7/themeToggler-contextAPI"
+              demoLink="https://theme-toggler-context-api-psi.vercel.app/"
             />
           </Col>
 
