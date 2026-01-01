@@ -20,6 +20,26 @@ function Projects() {
             <ProjectCard
               imgPath={pro}
               isBlog={false}
+              title="Reel Bite"
+              description="A full-stack food reels platform where users can browse and watch food reels. Built with a complete backend using Node.js and Express, featuring secure user authentication with JWT and API-driven content delivery."
+              ghLink="https://github.com/sharad7s7/Reel-Bite"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rag}
+              isBlog={false}
+              title="Chat with Video (RAG)"
+              description="A Retrieval-Augmented Generation (RAG) system that answers questions from Data Structures & Algorithms video lectures using semantic search and LLMs, returning precise video numbers and timestamps."
+              ghLink="https://github.com/sharad7s7/Chat-with-Video-RAG"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro}
+              isBlog={false}
               title="California House Price Predictor"
               description="Predicts California home prices using a machine learning model. Users can input property features through an interactive Streamlit (2,000 rows for performance, while the full dataset contains 16,000 rows) interface to get real-time price predictions, along with visual insights such as maps, feature importance, and price distributions. Performed data preprocessing, handled missing values, applied one-hot encoding, and used cross-validation."
               ghLink="https://github.com/sharad7s7/California-HousePrice-Prediction"
@@ -35,16 +55,6 @@ function Projects() {
               description="Developed an interview preparation platform leveraging Gemini AI to assist users in practicing interviews and enhancing their skills. The platform offers personalized mock interviews, real-time feedback on responses, and skill development modules. Integrated Gemini AI for generating role-specific questions and analyzing user performance, while incorporating learning paths to target skill gaps."
               ghLink="https://github.com/sharad7s7/Interview-Pal"
               demoLink="https://interview-pal.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pro}
-              isBlog={false}
-              title="Reel Bite"
-              description="A full-stack food reels platform where users can browse and watch food reels. Built with a complete backend using Node.js and Express, featuring secure user authentication with JWT and API-driven content delivery."
-              ghLink="https://github.com/sharad7s7/Reel-Bite"
             />
           </Col>
 
