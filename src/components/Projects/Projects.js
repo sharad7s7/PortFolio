@@ -28,7 +28,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rag}
+              imgPath={pro}
               isBlog={false}
               title="Chat with Video (RAG)"
               description="A Retrieval-Augmented Generation (RAG) system that answers questions from Data Structures & Algorithms video lectures using semantic search and LLMs, returning precise video numbers and timestamps."
