@@ -20,11 +20,13 @@ function Projects() {
             <ProjectCard
               imgPath={pro}
               isBlog={false}
-              title="Reel Bite"
-              description="A full-stack food reels platform where users can browse and watch food reels. Built with a complete backend using Node.js and Express, featuring secure user authentication with JWT and API-driven content delivery."
-              ghLink="https://github.com/sharad7s7/Reel-Bite"
+              title="Skill-Screen"
+              description="Skill-Screen is a real-time coding interview platform built for collaborative problem solving. It includes secure authentication and access control using Clerk, interview session and problem management with MongoDB, and a VS Code-like coding experience powered by the Monaco Editor. Users can write and run code in multiple languages with instant output via the Piston API, while Stream enables real-time collaboration and session updates. Inngest is used to handle background workflows and event-driven tasks for a smooth and reliable interview experience."
+              ghLink="https://github.com/sharad7s7/Skill-Screen"
+              demoLink="https://skill-screen.onrender.com/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -33,6 +35,16 @@ function Projects() {
               title="Chat with Video (RAG)"
               description="A Retrieval-Augmented Generation (RAG) system that answers questions from Data Structures & Algorithms video lectures using semantic search and LLMs, returning precise video numbers and timestamps."
               ghLink="https://github.com/sharad7s7/Chat-with-Video-RAG"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro}
+              isBlog={false}
+              title="Reel Bite"
+              description="A full-stack food reels platform with a robust backend built using Node.js and Express. Features JWT-based authentication, role-based access control, and media uploads. The application is fully containerized with Docker Compose, allowing users to clone the repository and run the complete system locally with a single command."
+              ghLink="https://github.com/sharad7s7/Reel-Bite"
             />
           </Col>
 
